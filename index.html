@@ -533,7 +533,7 @@
 
      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 
-      <form id="contact-form" class="contact-form" method="post" action="" novalidate="novalidate">
+      <form id="contact-form" class="contact-form" method="post" action="" novalidate="novalidate" onsubmit="myFunction()">
         <h3 class="text-center mb-3">Get In Touch</h3>
 
 
@@ -626,5 +626,9 @@ $('#expand-btn').click(function(){
 })
 
 $('#contact-form-submit').click(function(){ alert("Thank you for getting in touch.")})
+
+function myFunction() {
+    alert("The form was submitted");
+}
 
 </script>
