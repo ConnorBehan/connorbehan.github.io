@@ -178,6 +178,22 @@ html {
   margin-top: 40px;
 }
 
+.modal-body li{
+text-align: left !important;
+}
+
+.btn-md{
+  margin-bottom: 10px;
+}
+
+.modal-header{
+background-color: #008fa1 !important;
+}
+
+.modal-title{
+  color: white;
+}
+
 .btn-primary{
     background-color: #17a2b8;
 }

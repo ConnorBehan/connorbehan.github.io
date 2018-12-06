@@ -71,7 +71,6 @@
   </div>
 </header>
 
-
 <body id="page-top">
 
   <div class="intro">
@@ -91,8 +90,41 @@
     <div class="container text-center">
       <ul class="list-inline">
         <li class="email list-inline-item"><i class="fa fa-envelope" style="font-size:24px"></i><br><a href="mailto:conorbehan@gmail.com">conorbehan@gmail.com</a></li><!--//Should open up a new tab and allow you to send an email but may not work in your browser depending on settings as outlook is needed as a default-->
-        <li class="list-inline-item"><i class="fa fa-phone" style="font-size:24px"></i><br><a href="tel: 0123456789">0123 456 7890</a></li>
-        <li class="website list-inline-item"><i class="fa fa-globe" style="font-size:24px"></i><br><a href="https://www.linkedin.com/in/connorbehan" target="_blank">www.linkedin.com/in/connorbehan</a></li>
+
+        <li class="website list-inline-item"><i class="fa fa-linkedin" style="font-size:24px"></i><br><a href="https://www.linkedin.com/in/connorbehan" target="_blank">www.linkedin.com/in/connorbehan</a></li>
+
+         <li class="list-inline-item"><i class="fa fa-phone" style="font-size:24px"></i><br>
+         <a href="tel: 0123456789" data-toggle="modal" data-target="#myModal">0123 456 7890</a></li>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    <br>
+    <br>
+    <br>
+    <br>
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <h6>Contact Availability</h6>
+          <ul>
+            <li>Weekdays: 9-6</li>
+            <li>Weekends: Anytime</li>
+          </ul>  
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+    </div>
+
       </ul>
     </div><!--//container-->
   </div>
@@ -194,16 +226,12 @@
           </div><!--//job-desc-->
         </div><!--//item-->
 
-
-
       </div> <!--Show more-->
 
     </section>   
   </div>
 
   <div class="container text-center">
-
-
 
    <section id="project-section" class="project-section section">
 
@@ -220,20 +248,77 @@
 
               <h4 class="project-title"><a href="https://github.com/ConnorBehan/FYP" target="_blank"">Final Year Project</a></h4>
 
-
               <p>
-                I am developing a chatbot that will converse with a user through Facebook Messenger. The chatbots main functionality is based around cinema tasks. A user can ask for information regarding new releases, movie times, movie trailers. A user can also book movie tickets through the chatbot for a time and date that will suit them. I am using the Microsoft Bot Framework and developing in C#. The chatbot will be deployed on Facebook Messenger and hosted on Azure.
+                I am developing a chatbot that will converse with a user through Facebook Messenger. The chatbots main functionality is based around cinema tasks.
               </p>
+
+              <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal2">Show More</button>
+
+              <!-- Modal -->
+                <div id="myModal2" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+
+                      <h4 class="modal-title">Final Year Project</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        
+                      </div>
+                      <div class="modal-body">
+                        <p> A user can ask for information regarding new releases, movie times, movie trailers. A user can also book movie tickets through the chatbot for a time and date that will suit them. I am using the Microsoft Bot Framework and developing in C#. The chatbot will be deployed on Facebook Messenger and hosted on Azure.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
             </div>
 
           </div>
+
           <div class="col-lg-6">
             <div class="single-project">
               <img class="img-fluid" src="img/computer2.png" alt="">
               <h4 class="project-title"><a href="https://github.com/IanDaly/ComputerStore" target="_blank"">Computer Store</a></h4>
+
               <p class=" pb-100">
-                Worked as part of a three-member team on building a web application that sells anything computer related. This undertook all stages of the application development cycle from the User Requirement stage, the Design stage right through to implementation and testing. HTML, CSS and JavaScript were used within the Play framework. A database was also created to store all products and is updated accordingly based on products sold.
+                Worked as part of a three-member team on building an MVC(Model, View, Controller) web application that sells anything computer related.
               </p>                
+
+              <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal3">Show More</button>
+
+              <!-- Modal -->
+                <div id="myModal3" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                      <h4 class="modal-title">Computer Store</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        
+                      </div>
+                      <div class="modal-body">
+                        <p> This undertook all stages of the application development cycle from the User Requirement stage, the Design stage right through to implementation and testing. HTML, CSS and JavaScript were used within the Play framework. A database was also created to store all products and is updated accordingly based on products sold.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
 
             </div>
 
