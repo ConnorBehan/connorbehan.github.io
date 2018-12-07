@@ -528,3 +528,11 @@ border-color: #FFFFFF;
 display: contents;
 
 }
+
+#downloadIcon{
+  margin: 0 !important;
+  padding:0; 
+  padding-right: 20px !important;
+  padding-bottom: 5px;
+  
+}
