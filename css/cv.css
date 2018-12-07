@@ -526,7 +526,6 @@ background-color: #FFFFFF;
 padding: 0rem 0rem!important;
 border-color: #FFFFFF;
 display: contents;
-
 }
 
 #downloadIcon{
@@ -534,5 +533,5 @@ display: contents;
   padding:0 !important; 
   padding-right: 20px !important;
   padding-bottom: 5px !important;
-
+  padding-left: 10px !important;
 }
