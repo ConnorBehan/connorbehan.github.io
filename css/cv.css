@@ -219,12 +219,12 @@ background-color: #008fa1 !important;
 .intro {
     background: #FFFFFF; /*D3D3D3*/
     padding-top: 90px;
-    padding-bottom: 60px;
+    /*padding-bottom: 60px;*/
     position: relative;
     font-size: 16px;
     border: #000000;
-    margin-top: 110px;
-    margin-bottom: 75px;
+    margin-top: 70px;
+    /*margin-bottom: 75px;*/
 }
 
 .section-education{
@@ -263,6 +263,12 @@ background-color: #008fa1 !important;
   width: 70px;
   height:70px;
   margin-bottom: 3px;
+}
+
+.tst-image{
+  width: 30px;
+  height:30px;
+  margin-bottom: 10px;
 }
 
 .section-projects{
@@ -356,16 +362,16 @@ h3
 
 /* Style all font awesome icons color: 41A4F5 */
 .fa {
-    padding: 20px;
+    padding: 5px;
     font-size: 30px;
     width: 10px;
     text-align: center;
     text-decoration: none;
     border-radius:10%;
     font-size: 30px !important;
-    padding-left: 20px !important;
+    padding-left: 0px !important;
     color: #000000 !important;
-    padding-right: 30px;
+    padding-right: 50px;
 }
 
 .fa:hover {
@@ -585,3 +591,6 @@ display: contents;
   padding-left: 10px !important;
 }
 
+.btn-info{
+  margin-top: 20px;
+}
