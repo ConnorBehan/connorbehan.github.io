@@ -299,6 +299,12 @@ background-color: #008fa1 !important;
     margin-bottom: 20px;
 }
 
+.project-title:hover{
+  color: #008fa1 !important;
+ transform: scale(1.2);
+
+}
+
 .contact-title{
     color:#008fa1;
     padding-top:35px;
