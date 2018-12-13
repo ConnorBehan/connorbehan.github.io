@@ -50,10 +50,14 @@ html {
     padding-bottom: 10px;
 }
 
+.navbar .navbar-brand:hover{
+  color:#000000 !important ;
+}
+
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
-  color: #ffffff;
+  color: #999999;
 }
 .navbar .navbar-text {
   color: #ecf0f1;
