@@ -219,7 +219,15 @@ background-color: #008fa1 !important;
 }
 
 .btn-primary{
-    background-color: #17a2b8;
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+   
+
+}
+
+.btn-primary:hover{
+ 
+  background-color: #107484 !important;
 }
 
 .intro {
